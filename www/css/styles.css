@@ -1,0 +1,244 @@
+:root {
+    --main-text-color: black;
+    --primary-font: Tahoma;
+    --border-color: rgb(195, 195, 195);
+    --secondary-text-color: rgb(75, 95, 115);
+    --blue-text-color: rgb(74, 120, 194);
+    --blue-daily-weather-color: rgb(43, 61, 103);
+    --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    font-family: var(--primary-font);
+}
+
+/* * {
+  outline: 1px solid #f00 !important;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.searchCard, .todayWeatherCard {
+    border: 1px solid var(--border-color);
+    margin: 5% 30% 0;
+    background-color: white;
+}
+
+.todayWeatherCard {
+    margin: 5% auto;
+    width: max-content;
+}
+
+.todayWeatherCard:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.searchCardBanner {
+    border-bottom: 1px solid var(--border-color);
+    padding: 2% 7%;
+    background-image: url("../images/banner.jpg");
+}
+
+.searchCardBanner > * {
+    padding: 3% 0;
+    font-size: large;
+    color: var(--secondary-text-color);
+}
+
+.searchCardBannerTitle {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.searchCardForm {
+    padding: 8%;
+    color: var(--blue-text-color);
+}
+
+input[type='text'], select {
+    padding: 5px 15px;
+    height: 33px;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    margin: 10px 0 25px 0;
+}
+
+input[type='checkbox'] {
+    cursor: pointer;
+}
+
+select {
+    cursor: pointer;
+}
+
+.innerAddress {
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerAddress > * {
+    margin-right: 20px;
+}
+
+.required {
+    color: red;
+}
+
+#streetInput {
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+
+.divider {
+    border-top: 1px solid var(--blue-text-color);
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.submitButton, .clearButton {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    margin: 20px 0;
+    color: white;
+}
+
+.submitButton {
+    background-color: var(--blue-text-color);
+    border: 1px solid rgb(40, 56, 101);
+    border-bottom: 2px solid rgb(40, 56, 101);
+}
+
+.clearButton {
+    background-color: rgb(254, 171, 16);
+    border: 1px solid rgb(252, 109, 7);
+    border-bottom: 2px solid rgb(252, 109, 7);
+}
+
+.submitButton:hover, .clearButton:hover {
+    opacity: .8;
+}
+
+.todayWeatherCard {
+    display: none;
+    padding: 15px;
+    color: rgb(120, 120, 120);
+    font-size: large;
+}
+
+#statusImage {
+    margin: 10px;
+}
+
+#statusText {
+    margin: 0 25px;
+}
+
+#statusTemp {
+    font-size: 100px;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.statusTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statsImage {
+    width: 40px;
+}
+
+.todayStats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.todayStats > div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.todayStats > div > * {
+    margin: 5px auto;
+}
+
+.futureStats {
+    display: grid;
+    border: 1px solid var(--border-color);
+    margin: 5% auto;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 10px;
+    display: none;
+    width: max-content;
+}
+
+.futureStats > div {
+    padding: 15px 25px;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.futureStats > .futureStatsTitle {
+    background-color: rgb(111, 132, 189);
+    color: black;
+    cursor: none;
+}
+
+.smallImage {
+    width: 25px;
+    margin: 0 10px;
+}
+
+#dailyWeatherDetails {
+    display: none;
+    margin: 5% auto;
+    width: max-content;
+}
+
+#dailyWeatherDetailsCard {
+    border: 1px solid var(--border-color);
+    background-image: linear-gradient(white, var(--blue-daily-weather-color));
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dailyWeatherDetailsCard:hover {
+    box-shadow: var(--box-shadow);
+}
+
+.cardTitle {
+    font-size: xx-large;
+    color: black;
+}
+
+#dailyWeatherDetailsDate, #dailyWeatherDetailsStatus, #dailyWeatherDetailsTemp {
+    font-size: larger;
+    margin: 10px;
+    color: var(--blue-daily-weather-color);
+    width: max-content;
+}
+
+#dailyWeatherDetailsTemp {
+    font-size: x-large;
+}
+
+#dailyWeatherDetailsImg {
+    margin: 10px;
+    min-width: 100px;
+    height: auto;
+}

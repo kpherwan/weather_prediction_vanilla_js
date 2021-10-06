@@ -1,0 +1,400 @@
+{
+  "current": {
+    "data": {
+      "timelines": [
+        {
+          "timestep": "current",
+          "startTime": "2021-10-04T00:49:00-07:00",
+          "endTime": "2021-10-04T00:49:00-07:00",
+          "intervals": [
+            {
+              "startTime": "2021-10-04T00:49:00-07:00",
+              "values": {
+                "temperature": 66.43,
+                "temperatureApparent": 66.43,
+                "temperatureMin": 66.43,
+                "temperatureMax": 66.43,
+                "windSpeed": 4.76,
+                "windDirection": 354.88,
+                "humidity": 62,
+                "pressureSeaLevel": 29.88,
+                "uvIndex": 0,
+                "weatherCode": 1100,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 9.94,
+                "cloudCover": 17
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "day": {
+    "data": {
+      "timelines": [
+        {
+          "timestep": "1d",
+          "startTime": "2021-10-03T06:00:00-07:00",
+          "endTime": "2021-10-18T06:00:00-07:00",
+          "intervals": [
+            {
+              "startTime": "2021-10-03T06:00:00-07:00",
+              "values": {
+                "temperature": 93.54,
+                "temperatureApparent": 89.6,
+                "temperatureMin": 60.24,
+                "temperatureMax": 93.54,
+                "windSpeed": 9.8,
+                "windDirection": 182.03,
+                "humidity": 57,
+                "pressureSeaLevel": 29.82,
+                "uvIndex": 6,
+                "weatherCode": 1001,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 9.94,
+                "cloudCover": 100,
+                "sunriseTime": "2021-10-03T06:50:00-07:00",
+                "moonPhase": 7,
+                "sunsetTime": "2021-10-03T18:33:20-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-04T06:00:00-07:00",
+              "values": {
+                "temperature": 93.16,
+                "temperatureApparent": 88.66,
+                "temperatureMin": 63,
+                "temperatureMax": 93.16,
+                "windSpeed": 10.69,
+                "windDirection": 192.05,
+                "humidity": 91.51,
+                "pressureSeaLevel": 29.87,
+                "uvIndex": 4,
+                "weatherCode": 1001,
+                "precipitationProbability": 5,
+                "precipitationType": 1,
+                "visibility": 9.94,
+                "cloudCover": 100,
+                "sunriseTime": "2021-10-04T06:50:00-07:00",
+                "moonPhase": 7,
+                "sunsetTime": "2021-10-04T18:33:20-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-05T06:00:00-07:00",
+              "values": {
+                "temperature": 76.98,
+                "temperatureApparent": 76.98,
+                "temperatureMin": 58.86,
+                "temperatureMax": 76.98,
+                "windSpeed": 13.8,
+                "windDirection": 200.21,
+                "humidity": 98.43,
+                "pressureSeaLevel": 29.91,
+                "uvIndex": 5,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 9.94,
+                "cloudCover": 28.91,
+                "sunriseTime": "2021-10-05T06:50:00-07:00",
+                "moonPhase": 7,
+                "sunsetTime": "2021-10-05T18:31:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-06T06:00:00-07:00",
+              "values": {
+                "temperature": 75.9,
+                "temperatureApparent": 75.9,
+                "temperatureMin": 57.76,
+                "temperatureMax": 75.9,
+                "windSpeed": 13.78,
+                "windDirection": 193.1,
+                "humidity": 99.43,
+                "pressureSeaLevel": 29.91,
+                "uvIndex": 5,
+                "weatherCode": 1101,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 14.58,
+                "cloudCover": 91.41,
+                "sunriseTime": "2021-10-06T06:51:40-07:00",
+                "moonPhase": 0,
+                "sunsetTime": "2021-10-06T18:30:00-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-07T06:00:00-07:00",
+              "values": {
+                "temperature": 72.37,
+                "temperatureApparent": 72.37,
+                "temperatureMin": 65.41,
+                "temperatureMax": 72.37,
+                "windSpeed": 10.85,
+                "windDirection": 207.49,
+                "humidity": 70.58,
+                "pressureSeaLevel": 29.95,
+                "uvIndex": 4,
+                "weatherCode": 1001,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 100,
+                "sunriseTime": "2021-10-07T06:51:40-07:00",
+                "moonPhase": 0,
+                "sunsetTime": "2021-10-07T18:30:00-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-08T06:00:00-07:00",
+              "values": {
+                "temperature": 71.33,
+                "temperatureApparent": 71.33,
+                "temperatureMin": 64.33,
+                "temperatureMax": 71.33,
+                "windSpeed": 10.27,
+                "windDirection": 211.61,
+                "humidity": 68.05,
+                "pressureSeaLevel": 29.97,
+                "weatherCode": 1001,
+                "precipitationProbability": 20,
+                "precipitationType": 1,
+                "visibility": 15,
+                "cloudCover": 100,
+                "sunriseTime": "2021-10-08T06:51:40-07:00",
+                "moonPhase": 1,
+                "sunsetTime": "2021-10-08T18:26:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-09T06:00:00-07:00",
+              "values": {
+                "temperature": 73.85,
+                "temperatureApparent": 73.85,
+                "temperatureMin": 65.1,
+                "temperatureMax": 73.85,
+                "windSpeed": 10.96,
+                "windDirection": 217.86,
+                "humidity": 62.25,
+                "pressureSeaLevel": 29.96,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 23.02,
+                "sunriseTime": "2021-10-09T06:53:20-07:00",
+                "moonPhase": 1,
+                "sunsetTime": "2021-10-09T18:26:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-10T06:00:00-07:00",
+              "values": {
+                "temperature": 81.48,
+                "temperatureApparent": 79.59,
+                "temperatureMin": 66.7,
+                "temperatureMax": 81.48,
+                "windSpeed": 10.54,
+                "windDirection": 236.62,
+                "humidity": 63.45,
+                "pressureSeaLevel": 29.84,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 56.54,
+                "sunriseTime": "2021-10-10T06:53:20-07:00",
+                "moonPhase": 1,
+                "sunsetTime": "2021-10-10T18:25:00-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-11T06:00:00-07:00",
+              "values": {
+                "temperature": 75.78,
+                "temperatureApparent": 75.78,
+                "temperatureMin": 64.83,
+                "temperatureMax": 75.78,
+                "windSpeed": 9.91,
+                "windDirection": 173.36,
+                "humidity": 70.84,
+                "pressureSeaLevel": 29.63,
+                "weatherCode": 1001,
+                "precipitationProbability": 5,
+                "precipitationType": 1,
+                "visibility": 15,
+                "cloudCover": 93.21,
+                "sunriseTime": "2021-10-11T06:53:20-07:00",
+                "moonPhase": 2,
+                "sunsetTime": "2021-10-11T18:23:20-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-12T06:00:00-07:00",
+              "values": {
+                "temperature": 71.56,
+                "temperatureApparent": 71.56,
+                "temperatureMin": 63.59,
+                "temperatureMax": 71.56,
+                "windSpeed": 25.52,
+                "windDirection": 234.94,
+                "humidity": 60.84,
+                "pressureSeaLevel": 29.7,
+                "weatherCode": 1000,
+                "precipitationProbability": 5,
+                "precipitationType": 1,
+                "visibility": 15,
+                "cloudCover": 83.22,
+                "sunriseTime": "2021-10-12T06:56:40-07:00",
+                "moonPhase": 2,
+                "sunsetTime": "2021-10-12T18:23:20-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-13T06:00:00-07:00",
+              "values": {
+                "temperature": 72.66,
+                "temperatureApparent": 72.66,
+                "temperatureMin": 63.9,
+                "temperatureMax": 72.66,
+                "windSpeed": 12.89,
+                "windDirection": 183.69,
+                "humidity": 32.16,
+                "pressureSeaLevel": 29.9,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 0,
+                "sunriseTime": "2021-10-13T06:56:40-07:00",
+                "moonPhase": 2,
+                "sunsetTime": "2021-10-13T18:21:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-14T06:00:00-07:00",
+              "values": {
+                "temperature": 76.42,
+                "temperatureApparent": 76.42,
+                "temperatureMin": 64.9,
+                "temperatureMax": 76.42,
+                "windSpeed": 10.8,
+                "windDirection": 154.96,
+                "humidity": 33.96,
+                "pressureSeaLevel": 29.87,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 33.86,
+                "sunriseTime": "2021-10-14T06:58:20-07:00",
+                "moonPhase": 3,
+                "sunsetTime": "2021-10-14T18:21:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-15T06:00:00-07:00",
+              "values": {
+                "temperature": 79.14,
+                "temperatureApparent": 78.4,
+                "temperatureMin": 66.24,
+                "temperatureMax": 79.14,
+                "windSpeed": 10.36,
+                "windDirection": 226.39,
+                "humidity": 36.23,
+                "pressureSeaLevel": 29.85,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 13.51,
+                "sunriseTime": "2021-10-15T06:58:20-07:00",
+                "moonPhase": 3,
+                "sunsetTime": "2021-10-15T18:18:20-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-16T06:00:00-07:00",
+              "values": {
+                "temperature": 78.8,
+                "temperatureApparent": 77.9,
+                "temperatureMin": 67.1,
+                "temperatureMax": 78.8,
+                "windSpeed": 9.93,
+                "windDirection": 213.59,
+                "humidity": 46.98,
+                "pressureSeaLevel": 29.89,
+                "weatherCode": 1100,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 59.63,
+                "sunriseTime": "2021-10-16T06:58:20-07:00",
+                "moonPhase": 3,
+                "sunsetTime": "2021-10-16T18:16:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-17T06:00:00-07:00",
+              "values": {
+                "temperature": 80.1,
+                "temperatureApparent": 79.09,
+                "temperatureMin": 67.96,
+                "temperatureMax": 80.1,
+                "windSpeed": 7.63,
+                "windDirection": 205.59,
+                "humidity": 40.48,
+                "pressureSeaLevel": 29.91,
+                "weatherCode": 1100,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 52.74,
+                "sunriseTime": "2021-10-17T07:00:00-07:00",
+                "moonPhase": 3,
+                "sunsetTime": "2021-10-17T18:16:40-07:00"
+              }
+            },
+            {
+              "startTime": "2021-10-18T06:00:00-07:00",
+              "values": {
+                "temperature": 81.12,
+                "temperatureApparent": 79.3,
+                "temperatureMin": 69.49,
+                "temperatureMax": 81.12,
+                "windSpeed": 8.52,
+                "windDirection": 246.43,
+                "humidity": 30.16,
+                "pressureSeaLevel": 29.94,
+                "weatherCode": 1000,
+                "precipitationProbability": 0,
+                "precipitationType": 0,
+                "visibility": 15,
+                "cloudCover": 0,
+                "sunriseTime": "2021-10-18T07:00:00-07:00",
+                "moonPhase": 4,
+                "sunsetTime": "2021-10-18T18:15:00-07:00"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "warnings": [
+      {
+        "code": 246001,
+        "type": "Time Bounded Field",
+        "message": "The following field is not supported for a time range: 'uvIndex'",
+        "meta": {
+          "field": "uvIndex",
+          "from": "2021-10-03T04:30:00-07:00",
+          "to": "2021-10-08T12:49:20-07:00"
+        }
+      }
+    ]
+  }
+}

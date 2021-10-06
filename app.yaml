@@ -11,6 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+includes:
+  - env_variables.yaml
 
 runtime: python39
 
@@ -18,3 +20,12 @@ handlers:
 - url: /
   static_files: www/index.html
   upload: www/index.html
+
+- url: /css
+  static_dir: www/css
+
+- url: /js
+  static_dir: www/js
+
+- url: /images
+  static_dir: www/images
