@@ -55,7 +55,7 @@ async function getWeather() {
         const ipInfo = await ipRequest.json();
         if (ipInfo.loc) {
             location = ipInfo.loc;
-            const geoRequestLat = await fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + location + "&key=AIzaSyAoJrD09LsoTIlgQd_SimxKZbRkJtduSHI");
+            const geoRequestLat = await fetch("https://maps.googleapis.com/maps/api/geocode/json?latlng=" + location + "&key=&&");
             const geoData = await geoRequestLat.json();
             if (geoData.results && geoData.results[0]) {
                 locationStr = geoData.results[0]?.formatted_address;
@@ -67,7 +67,7 @@ async function getWeather() {
         const state = document.getElementById("state").value.trim()
         const address = encodeURIComponent(street + ", " + city + ", " + state)
 
-        const geoRequest = await fetch("https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=AIzaSyAoJrD09LsoTIlgQd_SimxKZbRkJtduSHI");
+        const geoRequest = await fetch("https://maps.googleapis.com/maps/api/geocode/json?address=" + address + "&key=&&");
         const geoData = await geoRequest.json();
         if (geoData.results && geoData.results[0]) {
             const gLoc = geoData.results[0]?.geometry?.location;
